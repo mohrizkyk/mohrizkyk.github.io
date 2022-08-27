@@ -1,0 +1,113 @@
+html {
+  font-family: 'PT Sans', sans-serif;
+  color: #555;
+}
+
+body {
+  margin: 0px;
+}
+
+footer {
+  text-align: center;
+  line-height: 2em;
+}
+
+.section-main {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.section-top-bar {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #555;
+  box-shadow: 0px 0px 1em #555;
+  z-index: 999;
+}
+
+@media only screen {
+  .section-top-bar.sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+}
+
+.section-top-bar h1 {
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-top-bar h2 {
+  font-size: 1.382em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.wrapper {
+  display: inline-block;
+  text-align: initial;
+  box-sizing: border-box;
+  max-width: 210mm;
+}
+
+.padding-rl-1 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.section-nav {
+  text-align: right;
+  padding: 0.5em 1em;
+  margin-top: 1.5em;
+}
+
+.btn-general {
+  display: inline-block;
+  min-height: 10mm;
+  font-size: 4mm;
+  font-family: 'PT Sans', sans-serif;
+  color: #555;
+  padding: 0mm 6mm;
+}
+
+.slider {
+  min-height: 10mm;
+  width: 76.8%;
+}
+
+.radio-item {
+  line-height: 10mm;
+  white-space: nowrap;
+}
+
+.tbl-numpad {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.tbl-numpad td {
+  padding: 0px;
+}
+
+.txt-question {
+  font-weight: bold;
+}
+
+.btn-numpad {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: white;
+}
+
+.chart-container {
+  position: relative;
+  box-sizing: border-box;
+  width: min(calc(100vw - 3em), calc(210mm - 3em));
+  height: 62vh;
+}
